@@ -5,8 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Money Master Balance Sheet</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>     
 </head>
 <body>
-    <h2>hello Balance</h2>
+    <section class="m-5">
+        <header class="text-center text-3xl bold text-blue-600  font-bold">
+            <h2>Money Master 💰</h2>
+        </header>
+        <section>
+            <article class="grid grid-cols-2 ml-10 mt-5">
+                <div class="bg-sky-300/50">
+                 <img src="images/image.webp" alt="">
+                </div>
+                <div class="bg-gray-200 ml-10">
+                    <div class="m-10 ">
+                        <h2 class="text-center font-bold my-2">Income</h2>
+                      <div class=" form-control">
+                        <div class="#">
+                          <span class="font-light">income :</span>
+                          <input type="text" class="input-xs" />
+                        </div>
+                        <h2 class="text-center font-bold my-2">Expenses</h2>
+                      <div class="form-control">
+                        <div class="mb-2 ml-4">
+                          <span class="font-light">Food :</span>
+                          <input type="text" class="input-xs" />
+                        </div>
+                      <div class="form-control">
+                        <div class="mb-2 ml-5">
+                          <span class="font-light">Rent :</span>
+                          <input type="input" class="input-xs" />
+                        </div>
+                        <div class="mb-2 ml-1 ">
+                          <span class="font-light">Clothes:</span>
+                          <input type="input" class="input-xs" />
+                        </div>
+                        <!-- <div class="bg-sky-200 p-5 hover:bg-green-300"> -->
+                        <button class="bg-cyan-600 text-white mx-10 rounded hover:bg-blue-300">calculate</button>
+                        <!-- </div> -->
+                        <h2 class="text-center font-bold my-2">Total Expenses:<span>5500</span></h2>
+                        <h2 class="text-center font-bold mb-2">Balance:<span></span>4500</h2>
+                        <div class="mb-2  ">
+                            <span class="font-light">Save:</span>
+                            <input type="input" class="px-2" maxlength="4" size="4"/>
+                            <span class="font-bold mx-2 fs-6">%</span>
+                            <span><button class="bg-cyan-600 text-white px-5 rounded hover:bg-blue-300">click</button></span>
+                          </div>
+                        <h2 class="text-center font-bold mb-2 ">Saving Amount:<span>2000</span></h2>
+                        <h2 class="text-center font-bold ">Remaining Balance:<span>2500</span></h2>
+                      </div>
+                    </div>
+                </div>
+             </article>
+        </section>
+    </section>
 </body>
 </html>
